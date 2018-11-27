@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>false</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>In this part of the exercise, you apply what you have learned in this module to create a scheduled flow to check for overdue NeedIt Tasks, close the overdue tasks, update the work notes for the task with a reason, and log the automatic closure.</description>
+        <internal_name>scheduled_flow_overdue_task</internal_name>
+        <label_cache>[{"name":"b19d240b-fe96-4803-b566-1113ed1ca68e.item.number","label":"4➛NeedIt Task Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_task","column_name":"number"},{"name":"d1510d14-299d-44bd-bd07-d7f069f28f01.table_name","label":"4.1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"d1510d14-299d-44bd-bd07-d7f069f28f01.record","label":"4.1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"b19d240b-fe96-4803-b566-1113ed1ca68e.item","label":"4➛NeedIt Task Record","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"reference","base_type":"reference"},{"name":"26e4a4f0-fdbb-4848-b631-b95db4c8a8d3.Count","label":"3➛Count","reference_display":"Count","type":"integer","base_type":"integer"},{"name":"26e4a4f0-fdbb-4848-b631-b95db4c8a8d3.Table","label":"3➛NeedIt Task Table","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"table_name","base_type":"table_name"},{"name":"26e4a4f0-fdbb-4848-b631-b95db4c8a8d3.Records","label":"3➛NeedIt Task Records","reference":"x_58872_needit_needit_task","reference_display":"NeedIt Task","type":"records","base_type":"records"},{"name":"29a31782-2359-43ed-80ae-b95d2a4966cf.Table","label":"3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name"},{"name":"29a31782-2359-43ed-80ae-b95d2a4966cf.Record","label":"3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id"},{"name":"0fec91cf-3c79-465c-b2e1-daf039b552af.calculated_date","label":"2➛Calculated date","reference_display":"Calculated date","type":"string","base_type":"string"},{"name":"7bfc3585-cde5-478c-b84d-59e36a301720.property_value","label":"1➛Property value","type":"string","base_type":"string"},{"name":"d34dcb8c-6868-461b-8ad0-cb14c66514f0.calculated_date","label":"2➛Calculated date","reference_display":"Calculated date","type":"string","base_type":"string"},{"name":"b19d240b-fe96-4803-b566-1113ed1ca68e.item.due_date","label":"4➛NeedIt Task Record➛Due date","reference":"","reference_display":"Due date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_58872_needit_needit_task","column_name":"due_date"}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Scheduled Flow Overdue Task</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>true</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-27 11:37:49</sys_created_on>
+        <sys_id>9e95ce59db026300f6487bedbf96194c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Scheduled Flow Overdue Task</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_9e95ce59db026300f6487bedbf96194c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-27 12:10:54</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_variable_value action="delete_multiple" query="document_key=9e95ce59db026300f6487bedbf96194c"/>
+</record_update>
